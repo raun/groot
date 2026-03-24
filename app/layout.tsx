@@ -41,6 +41,7 @@ export default function RootLayout({
             <Toaster position="top-center" />
           </I18nProvider>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
